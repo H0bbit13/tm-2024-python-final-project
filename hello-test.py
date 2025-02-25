@@ -1,6 +1,6 @@
 import pyglet
-window = pyglet.window.Window()
-label = pyglet.text.Label('Hello, world', font_size=36, x=200, y=100)
+window = pyglet.window.Window(width=800, height=500)
+label = pyglet.text.Label('Hello, Audra', font_size=100, x=250, y=100)
 
 @window.event
 def on_draw():
@@ -8,3 +8,5 @@ def on_draw():
     label.draw()
 
 pyglet.app.run()
+
+

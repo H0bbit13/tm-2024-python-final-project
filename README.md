@@ -7,5 +7,6 @@ pip install pyglet
 
 ## Run
 ```bash
-python hello-test.py
+
+
 ```
